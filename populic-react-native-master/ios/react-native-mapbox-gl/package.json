@@ -1,0 +1,76 @@
+{
+  "_from": "react-native-mapbox-gl",
+  "_id": "react-native-mapbox-gl@5.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-H8r3KSLTQGCwEuSHdRqxS2nC4a8=",
+  "_location": "/react-native-mapbox-gl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-mapbox-gl",
+    "name": "react-native-mapbox-gl",
+    "escapedName": "react-native-mapbox-gl",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-mapbox-gl/-/react-native-mapbox-gl-5.2.0.tgz",
+  "_shasum": "1fcaf72922d34060b012e487751ab14b69c2e1af",
+  "_spec": "react-native-mapbox-gl",
+  "_where": "/Users/Populic/Documents/Projects/spotlite",
+  "author": {
+    "name": "Bobby Sudekum"
+  },
+  "bugs": {
+    "url": "https://github.com/mapbox/react-native-mapbox-gl/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "lodash": "^4.13.1"
+  },
+  "deprecated": false,
+  "description": "A Mapbox GL react native module for creating custom maps",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.1.1",
+    "eslint-config-strict-react": "^8.0.1",
+    "eslint-plugin-react": "^5.2.2",
+    "eslint-plugin-react-native": "1.1.0"
+  },
+  "homepage": "https://github.com/mapbox/react-native-mapbox-gl#readme",
+  "keywords": [
+    "gl",
+    "ios",
+    "android",
+    "mapbox",
+    "react-component",
+    "react-native"
+  ],
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/mapbox/react-native-mapbox-gl/blob/master/LICENSE.md"
+    }
+  ],
+  "name": "react-native-mapbox-gl",
+  "peerDependencies": {
+    "react": ">=15.4.0",
+    "react-native": ">=0.40"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/react-native-mapbox-gl.git"
+  },
+  "scripts": {
+    "lint": "eslint --no-eslintrc -c .eslintrc index.js example.js",
+    "preinstall": "node ./scripts/download-mapbox-gl-native-ios-if-on-mac.js 3.3.1",
+    "test": "npm run lint"
+  },
+  "version": "5.2.0"
+}
